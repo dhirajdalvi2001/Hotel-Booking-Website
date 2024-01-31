@@ -1,4 +1,11 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
+} */
+.social-media-icon {
+  width: 22px;
+  height: 20px;
+}
+.font-bold {
+  font-weight: 700;
 }
