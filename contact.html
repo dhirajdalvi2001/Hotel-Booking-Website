@@ -9,7 +9,20 @@
   </head>
   <body>
     <div id="contact-body">
-      <p>CONTACT US</p>
+      <p>Thank you for reaching out!!!</p>
+      <p>Please enter you email and we will get back to you</p>
+      <form action="" id="contact-form" onsubmit="handleContactSubmit(event)">
+        <input
+          id="contact-email"
+          name="contact-email"
+          type="email"
+          placeholder="Enter your email"
+          autocomplete="off"
+          required
+        />
+        <button type="submit" form="contact-form" value="Submit">Submit</button>
+      </form>
     </div>
+    <script src="./scripts/common.js"></script>
   </body>
 </html>

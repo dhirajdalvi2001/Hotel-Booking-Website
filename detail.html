@@ -10,8 +10,14 @@
   <body>
     <div id="detail-body">
       <div class="header">
-        <img src="./assests//images/logo.png" alt="logo" srcset="" id="logo" />
-        <a href="/login.html" target="_blank">Login</a>
+        <a href="/index.html"
+          ><img
+            src="./assests//images/logo.png"
+            alt="logo"
+            srcset=""
+            class="logo"
+        /></a>
+        <a href="/login.html">Login</a>
       </div>
       <div class="content-div">
         <img
@@ -19,7 +25,60 @@
           alt="radisson-blue-hotel"
           srcset=""
         />
-        <p><a href="./payment.html">Book Now</a></p>
+        <form action="" id="detail-form" onsubmit="handleDetailSubmit(event)">
+          <div>
+            <label for="detail-adult">Adults: </label
+            ><input
+              type="number"
+              name="detail-adult"
+              id="detail-adult"
+              autocomplete="off"
+              required
+              min="1"
+            />
+          </div>
+          <div>
+            <label for="detail-name">Name: </label
+            ><input
+              type="text"
+              name="detail-name"
+              id="detail-name"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div>
+            <label for="detail-from-date">From Date: </label
+            ><input
+              type="date"
+              name="detail-from-date"
+              id="detail-from-date"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div>
+            <label for="detail-to-date">To Date: </label
+            ><input
+              type="date"
+              name="detail-to-date"
+              id="detail-to-date"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div>
+            <label for="detail-total">Total</label
+            ><input
+              type="text"
+              name="detail-total"
+              value=""
+              id="detail-total"
+              readonly
+            />
+          </div>
+          <input type="submit" value="Book Now" form="detail-form" />
+        </form>
         <h2>Radisson Blue Hotel</h2>
         <p>RATING</p>
         <p>AMENITIES</p>
@@ -39,7 +98,7 @@
         </p>
       </div>
       <div class="footer-div">
-        <p><a href="/contact.html" target="_blank">Contact Us</a></p>
+        <p><a href="/contact.html" >Contact Us</a></p>
         <div class="social-media">
           <a href="http://facebook.com" target="_blank">
             <img
@@ -67,5 +126,6 @@
         <p>© 2020 ROOM SEARCH PVT. LTD.</p>
       </div>
     </div>
+    <script src="./scripts/common.js"></script>
   </body>
 </html>

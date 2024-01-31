@@ -9,3 +9,14 @@
 .font-bold {
   font-weight: 700;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+#contact-form input,
+button {
+  width: fit-content;
+}
