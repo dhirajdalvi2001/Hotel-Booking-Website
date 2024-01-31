@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 } */
+body {
+  width: 100vw;
+  height: 100vh;
+}
 .social-media-icon {
   width: 22px;
   height: 20px;
@@ -15,6 +19,11 @@
 #contact-form {
   display: flex;
   flex-direction: column;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
 }
 #contact-form input,
 button {
