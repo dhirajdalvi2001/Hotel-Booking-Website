@@ -2,3 +2,30 @@
   width: 500px;
   height: 500px;
 }
+#payment-body .hotel-details {
+  margin: 2% auto;
+  width: 50%;
+  height: 20%;
+  background-color: rgb(132, 136, 139);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#payment-body .hotel-details h2 {
+  background-color: transparent;
+}
+#payment-body .customer-details {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#payment-body .payment-details {
+  margin: 2%;
+  padding: 1% 2%;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

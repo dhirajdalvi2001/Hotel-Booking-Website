@@ -2,3 +2,20 @@
   width: 150px;
   height: 150px;
 }
+#list-body .content-div {
+  margin: 2%;
+}
+#list-body .content-div ul {
+  padding-left: 20px;
+}
+#list-body .hotel-container {
+  margin: 2% 0;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(132, 136, 139);
+}
+#list-body .hotel-container h3 {
+  background-color: transparent;
+}

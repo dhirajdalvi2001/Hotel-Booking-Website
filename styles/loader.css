@@ -1,0 +1,12 @@
+#loader-body {
+  display: flex;
+  height: 100%;
+}
+#loader-body .loader {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border: 12px solid #f3f3f3;
+  border-top: 12px solid #444444;
+  border-radius: 50%;
+}

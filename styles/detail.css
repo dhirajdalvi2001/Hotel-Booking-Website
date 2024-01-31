@@ -2,3 +2,15 @@
   width: 500px;
   height: 500px;
 }
+#detail-body .content-div {
+  margin: 2% 4% 0;
+}
+#detail-body input {
+  border: 1px solid;
+}
+#detail-body .hotel-description-data {
+  margin: 2% 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
