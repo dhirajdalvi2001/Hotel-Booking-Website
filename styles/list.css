@@ -3,7 +3,7 @@
   height: 150px;
 }
 #list-body .content-div {
-  margin: 2%;
+  margin: 4%;
 }
 #list-body .content-div ul {
   padding-left: 20px;
@@ -12,9 +12,10 @@
   margin: 2% 0;
   width: 40%;
   display: flex;
-  flex-direction: column;
   gap: 10px;
-  background-color: rgb(132, 136, 139);
+  background-color: lightgrey;
+  min-width: 47%;
+  padding-bottom: 10px;
 }
 #list-body .hotel-container h3 {
   background-color: transparent;
@@ -38,9 +39,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-#list-body #list-view .hotel-container {
-  min-width: 47%;
-  padding-bottom: 10px;
+#list-body #list-view .hotel-info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 #list-body #list-view a {
   text-decoration: none;

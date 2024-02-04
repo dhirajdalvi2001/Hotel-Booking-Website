@@ -20,70 +20,69 @@
         <a href="/login.html">Login</a>
       </header>
       <section class="content-div">
-        <img
-          src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-          alt="radisson-blue-hotel"
-          srcset=""
-          class="detail-hotel-image"
-        />
-        <form action="" id="detail-form" onsubmit="handleDetailSubmit(event)">
-          <div>
-            <label for="detail-adult">Adults: </label
-            ><input
-              type="number"
-              name="detail-adult"
-              id="detail-adult"
-              autocomplete="off"
-              required
-              min="1"
-            />
+        <div class="detail-top">
+          <div class="detail-img-container">
+            <div class="detail-hotel-image"></div>
           </div>
-          <div>
-            <label for="detail-name">Name: </label
-            ><input
-              type="text"
-              name="detail-name"
-              id="detail-name"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div>
-            <label for="detail-from-date">From Date: </label
-            ><input
-              type="date"
-              name="detail-from-date"
-              id="detail-from-date"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div>
-            <label for="detail-to-date">To Date: </label
-            ><input
-              type="date"
-              name="detail-to-date"
-              id="detail-to-date"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div>
-            <label for="detail-total">Total</label
-            ><input
-              type="text"
-              name="detail-total"
-              value=""
-              id="detail-total"
-              readonly
-            />
-          </div>
-          <input type="submit" value="Book Now" form="detail-form" />
-        </form>
+          <form action="" id="detail-form" onsubmit="handleDetailSubmit(event)">
+            <div class="flex">
+              <label for="detail-adult">Adults: </label
+              ><input
+                type="number"
+                name="detail-adult"
+                id="detail-adult"
+                autocomplete="off"
+                required
+                min="1"
+              />
+            </div>
+            <div class="flex">
+              <label for="detail-name">Name: </label
+              ><input
+                type="text"
+                name="detail-name"
+                id="detail-name"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="flex">
+              <label for="detail-from-date">From Date: </label
+              ><input
+                type="date"
+                name="detail-from-date"
+                id="detail-from-date"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="flex">
+              <label for="detail-to-date">To Date: </label
+              ><input
+                type="date"
+                name="detail-to-date"
+                id="detail-to-date"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="flex">
+              <label for="detail-total">Total</label
+              ><input
+                type="text"
+                name="detail-total"
+                value=""
+                id="detail-total"
+                readonly
+              />
+            </div>
+            <input type="submit" value="Book Now" form="detail-form" />
+          </form>
+        </div>
         <div class="hotel-description-data">
           <h2>Radisson Blue Hotel</h2>
-          <p>RATING</p>
-          <p>AMENITIES</p>
+          <p class="cursive semibold">RATING</p>
+          <p class="semibold">AMENITIES</p>
           <ul>
             <li>Room service</li>
             <li>Restaurant</li>
@@ -103,6 +102,7 @@
       <footer class="footer-div">
         <div class="footer-top">
           <p><a href="/contact.html">Contact Us</a></p>
+          <p class="copyright-text">© 2020 ROOM SEARCH PVT. LTD.</p>
           <div class="social-media">
             <a href="http://facebook.com" target="_blank">
               <img
@@ -128,7 +128,6 @@
             /></a>
           </div>
         </div>
-        <p class="copyright-text">© 2020 ROOM SEARCH PVT. LTD.</p>
       </footer>
     </div>
     <script src="./scripts/common.js"></script>

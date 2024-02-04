@@ -10,7 +10,8 @@ footer {
 header {
   position: sticky;
   top: 0;
-  padding-right: 20px;
+  padding-left: 1%;
+  padding-right: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +21,8 @@ header a {
   color: black;
 }
 footer {
+  padding-left: 2%;
+  padding-right: 2%;
   position: sticky;
   bottom: 0;
   display: flex;
@@ -48,6 +51,7 @@ img {
 }
 body {
   width: 100%;
+  min-height: 100vh;
   height: 100%;
 }
 .social-media-icon {
@@ -73,4 +77,16 @@ body {
 #contact-form input,
 button {
   width: fit-content;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.flex {
+  display: flex;
+}
+.cursive {
+  font-family: cursive;
+}
+.semibold {
+  font-weight: 600;
 }
