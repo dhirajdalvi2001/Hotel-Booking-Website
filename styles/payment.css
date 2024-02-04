@@ -29,3 +29,10 @@
   flex-direction: column;
   gap: 16px;
 }
+#payment-body .pay-now {
+  text-decoration: none;
+  color: black;
+}
+#payment-body .content-div {
+  padding-bottom: 20px;
+}

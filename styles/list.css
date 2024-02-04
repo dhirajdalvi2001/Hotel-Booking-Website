@@ -19,3 +19,30 @@
 #list-body .hotel-container h3 {
   background-color: transparent;
 }
+#list-body .unordered-list {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: 700;
+}
+#list-body .unordered-list li {
+  list-style: none;
+}
+#list-body .unordered-list a {
+  text-decoration: none;
+  color: black;
+}
+#list-body #list-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#list-body #list-view .hotel-container {
+  min-width: 47%;
+  padding-bottom: 10px;
+}
+#list-body #list-view a {
+  text-decoration: none;
+  color: black;
+}
