@@ -34,6 +34,15 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+.contact-us {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-button {
+  background-color: #249bba;
+}
 .footer-top a {
   text-decoration: none;
   color: black;
@@ -89,4 +98,42 @@ button {
 }
 .semibold {
   font-weight: 600;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-modal-container {
+  padding: 10px;
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-email-container {
+  display: flex;
+  gap: 4px;
+}
+.login-modal-container label {
+  width: 40%;
+}
+.login-modal-container input,
+.contact-modal-container input {
+  border-radius: 4px;
+  width: 60%;
+  border: 1px solid gray;
+}
+.modal {
+  background-color: transparent;
+}
+.modal-header,
+.modal-body {
+  border-bottom: 1px solid gray;
+}
+.modal-dialog {
+  border: 1px solid gray;
+  border-radius: 6px !important;
+  overflow: hidden !important;
 }
