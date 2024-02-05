@@ -3,6 +3,9 @@
   background-color: #e0e0e0;
   font-family: "Ubuntu", sans-serif;
 }
+body {
+  height: 100vh;
+}
 header,
 footer {
   background-color: rosybrown;
@@ -21,9 +24,10 @@ header a {
   color: black;
 }
 footer {
+  width: 100%;
   padding-left: 2%;
   padding-right: 2%;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   display: flex;
   flex-direction: column;
@@ -136,4 +140,13 @@ button {
   border: 1px solid gray;
   border-radius: 6px !important;
   overflow: hidden !important;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-top {
+    padding: 10px;
+  }
+  .contact-button {
+    font-size: 12px;
+  }
 }

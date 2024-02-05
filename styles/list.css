@@ -1,3 +1,6 @@
+#list-body {
+  height: 100vh;
+}
 .hotel-image {
   width: 150px;
   height: 150px;
@@ -10,12 +13,12 @@
 }
 #list-body .hotel-container {
   margin: 2% 0;
+  min-width: 400px;
   width: 40%;
   height: 150px;
   display: flex;
   gap: 10px;
   background-color: lightgrey;
-  min-width: 47%;
 }
 #list-body .hotel-container:hover {
   background-color: rosybrown;
@@ -44,4 +47,30 @@
 #list-body #list-view a {
   text-decoration: none;
   color: black;
+}
+#map-view img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 600px) {
+  #list-body #list-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  #list-body .hotel-container {
+    margin: auto;
+    min-width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .hotel-image {
+    width: 100%;
+    height: 100%;
+  }
+  .hotel-info {
+    gap: 0 !important;
+  }
 }

@@ -1,3 +1,6 @@
+#detail-body {
+  padding-bottom: 80px;
+}
 #detail-body .content-div {
   margin: 2% 4% 0;
 }
@@ -24,6 +27,7 @@
 }
 .detail-hotel-image {
   margin: auto;
+  min-width: 450px;
   width: 70% !important;
   height: 360px;
 }
@@ -67,4 +71,23 @@
   width: fit-content;
   border-radius: 4px;
   border: 1px solid gray;
+}
+
+@media screen and (max-width: 600px) {
+  .detail-hotel-image {
+    margin: auto;
+    width: 250px !important;
+  }
+  .detail-top {
+    height: max-content !important;
+    max-height: max-content !important;
+    display: flex;
+    flex-direction: column;
+  }
+  #detail-form {
+    width: 80%;
+    height: max-content;
+    display: flex;
+    gap: 20px;
+  }
 }
